@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { formatViews, timeSince } from '../utils/format';
-import './videoCard.css';
+import './VideoCard.css';
 
 export default function VideoCard({ video }) {
   return (
