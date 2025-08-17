@@ -1,0 +1,39 @@
+:root {
+  --bg-color: #ffffff;
+  --text-color: #000000;
+  --card-bg: #f9f9f9;
+  --navbar-bg: #ffffff;
+  --border-color: #e0e0e0;
+  --hover-bg: rgba(0, 0, 0, 0.1);
+  --active-bg: rgba(0, 0, 0, 0.2);
+  --text-secondary: #6b7280;
+  --skeleton-bg: #f3f4f6;
+  --skeleton-highlight: #e5e7eb;
+}
+
+[data-theme='dark'] {
+  --bg-color: #181818;
+  --text-color: #ffffff;
+  --card-bg: #282828;
+  --navbar-bg: #181818;
+  --border-color: #333333;
+  --hover-bg: rgba(255, 255, 255, 0.1);
+  --active-bg: rgba(255, 255, 255, 0.2);
+  --text-secondary: #a1a1aa;
+  --skeleton-bg: #1f2937;
+  --skeleton-highlight: #374151;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.page-content, .sidebar, .navbar, .video-details-page, .search-results {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.result-card, .related-card {
+  background-color: var(--card-bg);
+}

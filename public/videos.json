@@ -1,0 +1,192 @@
+[
+  {
+    "id": "11",
+    "title": "Skyline Drone Adventure",
+    "channel": "FlyHigh Media",
+    "channelAvatar": "https://i.pravatar.cc/48?img=45",
+    "views": 3000000,
+    "posted": "2025-05-17T12:00:00Z",
+    "duration": "12:30",
+    "thumbnail": "https://img.youtube.com/vi/NGmyBpQyA48/hqdefault.jpg",
+    "src": "https://www.youtube.com/embed/NGmyBpQyA48",
+    "description": "Drone exploration over cityscapes and mountains — stunning visuals!",
+    "category": "trending",
+    "related": ["12","13","14"],
+    "comments": [
+      { "id": "c1", "user": "Ananya Sharma", "text": "Breathtaking views! 😍", "likes": 220 },
+      { "id": "c2", "user": "Rohan Mehta", "text": "Drone shots on point! 👌", "likes": 180 },
+      { "id": "c3", "user": "Siddharth", "text": "Feels like flying myself!", "likes": 150 }
+    ]
+  },
+  {
+    "id": "12",
+    "title": "Chanakya - Rishab Rikhiram Sharma (Live from Mumbai) | Sitar for Mental Health Tour 2024",
+    "channel": "Rishab",
+    "channelAvatar": "https://yt3.ggpht.com/g1G8SyHMybBz6riIg9n9rAFmAeF7K_O9P7H-LLrr7Y80qLeXvM7x2RWiFI8BhBe0vG8paSgLEw=s88-c-k-c0x00ffffff-no-rj",
+    "views": 7000000,
+    "posted": "2025-02-17T12:00:00Z",
+    "duration": "04:20",
+    "thumbnail": "https://img.youtube.com/vi/KBYSpR8N6pc/hqdefault.jpg",
+    "src": "https://www.youtube.com/embed/KBYSpR8N6pc",
+    "description": "Chanakya is an ode to the legendary kingmaker Chanakya (Kautilya), who was instrumental in guiding Chandragupta to overthrow the Nanda dynasty. As the third release from Rishab's album Navaras, this powerful track captures the spirit of victory, symbolizing the triumph of good over evil and the essence of freedom. Out of the Navaras (9 emotions), Chanakya channels Veer Rasa (heroic sentiment) with its grand orchestration and immersive sound design.",
+    "category": "music",
+    "related": ["11","14","15"],
+    "comments": [
+      { "id": "c1", "user": "Neel Patel", "text": "This is pure bliss 🎶", "likes": 310 },
+      { "id": "c2", "user": "Priya Das", "text": "My new meditation music ❤️", "likes": 270 },
+      { "id": "c3", "user": "Arjun Verma", "text": "So calming, love it!", "likes": 340 }
+    ]
+  },
+  {
+    "id": "13",
+    "title": "Lamborghini Huracán STO & Ferrari 488 Pista ",
+    "channel": "BlockMasters",
+    "channelAvatar": "https://yt3.ggpht.com/LJPA7WQ93JZf6j7CYJpVpxVi_GxoNbWb-h3KA9w5aBK_h-vA3ErrJumJh4XrFQv0WnaX6-WdNw=s68-c-k-c0x00ffffff-no-rj",
+    "views": 2500000,
+    "posted": "2025-06-17T12:00:00Z",
+    "duration": "28:15",
+    "thumbnail": "https://img.youtube.com/vi/ewOppiD9ckI/hqdefault.jpg",
+    "src": "https://www.youtube.com/embed/ewOppiD9ckI",
+    "description": "Creating a massive castle in survival mode — step by step.",
+    "category": "gaming",
+    "related": ["11","15","16"],
+    "comments": [
+      { "id": "c1", "user": "Karan Singh", "text": "Mind-blowing build! 👏", "likes": 200 },
+      { "id": "c2", "user": "Sneha Rao", "text": "I need to try this 😆", "likes": 175 },
+      { "id": "c3", "user": "Vikram", "text": "Minecraft king! 👑", "likes": 190 }
+    ]
+  },
+  {
+    "id": "14",
+    "title": "Latest Tech Gadgets Review 2025",
+    "channel": "TechSphere",
+    "channelAvatar": "https://yt3.ggpht.com/Q21eE1mib5sufKrB1-zED9QMy6ipeNg2qcrVRlEwUVSdhrBv01w6gTrew5TtU7-ViBieiITCdg=s68-c-k-c0x00ffffff-no-rj",
+    "views": 1200000,
+    "posted": "2025-08-10T12:00:00Z",
+    "duration": "20:00",
+    "thumbnail": "https://img.youtube.com/vi/T-F-vVNVQ50/hqdefault.jpg",
+    "src": "https://www.youtube.com/embed/T-F-vVNVQ50",
+    "description": "Reviewing the hottest tech gadgets launched this year.",
+    "category": "technology",
+    "related": ["12","13","11"],
+    "comments": [
+      { "id": "c1", "user": "Ritika Gupta", "text": "Very detailed review 👍", "likes": 120 },
+      { "id": "c2", "user": "Shivam Yadav", "text": "Loved the camera comparison 📷", "likes": 140 },
+      { "id": "c3", "user": "Ankit Mehta", "text": "Tech lover's heaven!", "likes": 130 }
+    ]
+  },
+  {
+    "id": "15",
+    "title": "79th Independence Day 2025 Celebration ",
+    "channel": "DD India",
+    "channelAvatar": "https://yt3.ggpht.com/4P1ivBexovhw7shJQPtzDWWsnRdSqUUyds7mCnZ4x573G-b4gk9DRNAZ1UYSTa-fx2NcKdck0CQ=s68-c-k-c0x00ffffff-no-rj",
+    "views": 650000,
+    "posted": "2025-08-17T12:00:00Z",
+    "duration": "15:00",
+    "thumbnail": "https://img.youtube.com/vi/9opHntwpzpw/hqdefault.jpg",
+    "src": "https://www.youtube.com/embed/9opHntwpzpw",
+    "description": "Top news updates from India and worldwide in 15 minutes.",
+    "category": "news",
+    "related": ["14","13","16"],
+    "comments": [
+      { "id": "c1", "user": "Alisha", "text": "Quick and precise 📰", "likes": 110 },
+      { "id": "c2", "user": "Rahul Jain", "text": "Covers everything I need 👍", "likes": 95 },
+      { "id": "c3", "user": "Priyanka", "text": "Great summary!", "likes": 120 }
+    ]
+  },
+  {
+    "id": "16",
+    "title": "King Kohli's 199-run series blitz | From the Vault",
+    "channel": "Cricket Au",
+    "channelAvatar": "https://yt3.ggpht.com/Vh9uFoOoGYoFDVYsUjrFzjUegCQq1PI1lwpHR2EcOVbnqQYMqdMGuw81F0HX5XZN-BgZgzWAJA=s68-c-k-c0x00ffffff-no-rj",
+    "views": 2000000,
+    "posted": "2025-08-10T12:00:00Z",
+    "duration": "18:45",
+    "thumbnail": "https://img.youtube.com/vi/mVupXkSH4sQ/hqdefault.jpg",
+    "src": "https://www.youtube.com/embed/mVupXkSH4sQ",
+    "description": "All key moments from the latest Cricket World Cup matches.",
+    "category": "sports",
+    "related": ["15","13","17"],
+    "comments": [
+      { "id": "c1", "user": "Rahul Sharma", "text": "Epic match coverage! 🏏", "likes": 280 },
+      { "id": "c2", "user": "Divya", "text": "Loved the highlights 🎯", "likes": 240 },
+      { "id": "c3", "user": "Manish", "text": "Great commentary!", "likes": 260 }
+    ]
+  },
+  {
+    "id": "17",
+    "title": "JavaScript Crash Course 2025",
+    "channel": "CodeWithAnkit",
+    "channelAvatar": "https://yt3.ggpht.com/bXJJo9d2Fw4m4HT8Cv9inbAiWjMPNIGCp6ZY7uLAgQ2mxBnUeLmJ7KPx6DC5ZbgzFJzseQslgg=s48-c-k-c0x00ffffff-no-rj",
+    "views": 5000000,
+    "posted": "2024-08-17T12:00:00Z",
+    "duration": "02:50:00",
+    "thumbnail": "https://img.youtube.com/vi/lH-AQNs_QRc/hqdefault.jpg",
+    "src": "https://www.youtube.com/embed/lH-AQNs_QRc",
+    "description": "Complete JS crash course — fundamentals to advanced in one video.",
+    "category": "education",
+    "related": ["16","14","12"],
+    "comments": [
+      { "id": "c1", "user": "Amit", "text": "Best JS tutorial ever 👏", "likes": 470 },
+      { "id": "c2", "user": "Sakshi", "text": "Learned so much today!", "likes": 430 },
+      { "id": "c3", "user": "Rohit", "text": "Perfect for beginners!", "likes": 390 }
+    ]
+  },
+  {
+    "id": "18",
+    "title": "We quiz each other on our FAVOURITE TOPICS!",
+    "channel": "Arey pata hai!?",
+    "channelAvatar": "https://yt3.ggpht.com/4mlI7JMh_XRSAuv5nl_TCFcd3Td4mb13WuLOmYMibMyPRhvmFOF2rKZivg5oYjFpZBkpGqlaUg=s48-c-k-c0x00ffffff-no-rj",
+    "views": 3500000,
+    "posted": "2025-03-17T12:00:00Z",
+    "duration": "08:00",
+    "thumbnail": "https://img.youtube.com/vi/1spPnQ9VJ5A/hqdefault.jpg",
+    "src": "https://www.youtube.com/embed/cdef81spPnQ9VJ5A899",
+    "description": "Quick hilarious skits to brighten your day!",
+    "category": "entertainment",
+    "related": ["11","12","15"],
+    "comments": [
+      { "id": "c1", "user": "Meena", "text": "Laughed till tears 😂", "likes": 200 },
+      { "id": "c2", "user": "Rohit", "text": "Short but super funny!", "likes": 180 },
+      { "id": "c3", "user": "Priya", "text": "Can’t stop watching!", "likes": 190 }
+    ]
+  },
+  {
+    "id": "19",
+    "title": "Cosmic Dawn (NASA+ Original Documentary)",
+    "channel": "SpaceWatch",
+    "channelAvatar": "https://yt3.ggpht.com/eIf5fNPcIcj9ig-wZBeq4stFy1lgjWTW1nLT5dYlFkHZprZ03QBiMcbpwNMB6XSBjrSFGtAGQg=s48-c-k-c0x00ffffff-no-rj",
+    "views": 15000000,
+    "posted": "2024-08-17T12:00:00Z",
+    "duration": "01:30:00",
+    "thumbnail": "https://img.youtube.com/vi/uSMGENDH_QI/hqdefault.jpg",
+    "src": "https://www.youtube.com/embed/fghuSMGENDH_QIi9900",
+    "description": "Live telescope feed from observatories across the world.",
+    "category": "science",
+    "related": ["16","18","17"],
+    "comments": [
+      { "id": "c1", "user": "Kiran", "text": "Amazing to watch live! 🌌", "likes": 950 },
+      { "id": "c2", "user": "Rahul", "text": "Feels like being there 🚀", "likes": 900 },
+      { "id": "c3", "user": "Sneha", "text": "So mesmerizing ✨", "likes": 870 }
+    ]
+  },
+  {
+    "id": "20",
+    "title": "Tender jackfruit Manchurian recipe ",
+    "channel": "Bhat n Bhat",
+    "channelAvatar": "https://yt3.ggpht.com/7OKSPcTt0Wp8tdg02gQ85rZtiTUrMwsACxLWnewqnoMKSSk8Otc9zWR_IWcDPYX3GHRyvWiq_A=s48-c-k-c0x00ffffff-no-rj",
+    "views": 4000000,
+    "posted": "2025-06-17T12:00:00Z",
+    "duration": "14:30",
+    "thumbnail": "https://img.youtube.com/vi/pebYS6uVpb4/hqdefault.jpg",
+    "src": "https://www.youtube.com/embed/pebYS6uVpb4",
+    "description": "Simple tricks to make cooking faster and tastier at home.",
+    "category": "home",
+    "related": ["18","17","15"],
+    "comments": [
+      { "id": "c1", "user": "Anjali", "text": "Super helpful tips 👩‍🍳", "likes": 450 },
+      { "id": "c2", "user": "Vikram", "text": "Makes cooking fun!", "likes": 420 },
+      { "id": "c3", "user": "Priya", "text": "Thanks for sharing!", "likes": 400 }
+    ]
+  }
+]

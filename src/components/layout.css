@@ -1,0 +1,166 @@
+/* Overall layout */
+.app-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* Main content below navbar */
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Sidebar - Desktop */
+.sidebar {
+  width: 220px;
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  transition: width 0.3s ease, transform 0.3s ease;
+  padding-top: 10px;
+  border-right: 1px solid var(--border-color, #e0e0e0);
+  overflow-y: auto;
+  height: calc(100vh - 56px);
+  position: relative;
+  z-index: 100;
+}
+
+.sidebar.collapsed {
+  width: 70px;
+}
+
+/* Page content area */
+.page-content {
+  flex: 1;
+  padding: 20px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  transition: margin-left 0.3s ease;
+  overflow-y: auto;
+  height: calc(100vh - 56px);
+  width: 100%;
+}
+
+/* Ensure content fills available space properly */
+.page-content.expanded {
+  margin-left: 0;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  /* Mobile sidebar overlay */
+  .sidebar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    height: calc(100vh - 56px);
+    width: 240px;
+    transform: translateX(-100%);
+    z-index: 1000;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+  }
+
+  .sidebar.mobile-open {
+    transform: translateX(0);
+  }
+
+  .sidebar.collapsed {
+    width: 240px;
+  }
+
+  /* Content takes full width on mobile */
+  .page-content {
+    padding: 15px;
+    margin-left: 0 !important;
+    width: 100%;
+  }
+
+  /* Overlay backdrop when sidebar is open on mobile */
+  .sidebar-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+
+  .sidebar-overlay.active {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  /* Hide collapsed state labels on mobile */
+  .sidebar.collapsed .label {
+    display: inline;
+  }
+}
+
+/* Tablet Responsive Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .sidebar.collapsed {
+    width: 70px;
+  }
+
+  .page-content {
+    padding: 15px;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+  .sidebar {
+    position: sticky;
+    transform: none !important;
+  }
+
+  .page-content.expanded {
+    margin-left: 0;
+  }
+}
+
+/* Overlay backdrop when sidebar is open on mobile */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.sidebar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* Ensure smooth transitions for all elements */
+* {
+  box-sizing: border-box;
+}
+
+/* Prevent body scroll when mobile menu is open */
+body.sidebar-open {
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  body.sidebar-open {
+    overflow: hidden;
+  }
+}

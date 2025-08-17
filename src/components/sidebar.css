@@ -1,0 +1,109 @@
+.sidebar {
+  background-color: var(--card-bg);
+  color: var(--text-color);
+  height: 100vh;
+  width: 220px;
+  transition: width 0.3s ease, transform 0.3s ease;
+  padding-top: 10px;
+  position: sticky;
+  top: 0;
+  border-right: 1px solid var(--border-color, #e0e0e0);
+}
+
+.sidebar.collapsed {
+  width: 72px;
+}
+
+.sidebar ul {
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 18px;
+  color: var(--text-color);
+  text-decoration: none;
+  transition: background 0.2s;
+  font-size: 14px;
+}
+
+.sidebar-item:hover {
+  background-color: var(--hover-bg, rgba(255, 255, 255, 0.1));
+}
+
+.sidebar-item .icon {
+  font-size: 18px;
+}
+
+.active-link {
+  background-color: var(--active-bg, rgba(255, 255, 255, 0.2));
+  font-weight: bold;
+}
+
+.toggle-btn {
+  background: none;
+  border: none;
+  color: var(--text-color);
+  font-size: 20px;
+  cursor: pointer;
+  margin: 10px 15px;
+}
+
+/* Mobile Responsive Styles */
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    height: calc(100vh - 56px);
+    width: 240px;
+    transform: translateX(-100%);
+    z-index: 1000;
+    box-shadow: 2px 0 8px rgba(0, 0, 0, 0.15);
+    border-right: 1px solid var(--border-color, #e0e0e0);
+  }
+
+  .sidebar.mobile-open {
+    transform: translateX(0);
+  }
+
+  .sidebar.collapsed {
+    width: 240px;
+  }
+
+  .sidebar-item {
+    padding: 15px 20px;
+    font-size: 16px;
+  }
+
+  .sidebar-item .icon {
+    font-size: 20px;
+  }
+
+  /* Always show labels on mobile */
+  .sidebar.collapsed .label {
+    display: inline;
+  }
+}
+
+/* Tablet Responsive Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .sidebar {
+    width: 200px;
+  }
+
+  .sidebar.collapsed {
+    width: 60px;
+  }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+  .sidebar {
+    position: sticky;
+    transform: none !important;
+  }
+}

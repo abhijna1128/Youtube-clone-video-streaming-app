@@ -1,0 +1,116 @@
+
+.thumb-wrap {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  aspect-ratio: 16/9;
+  background: var(--card-bg);
+}
+
+.thumb-wrap img { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  display: block; 
+}
+
+.badge {
+  position: absolute; 
+  right: 8px; 
+  bottom: 8px;
+  font-size: 12px; 
+  padding: 2px 6px; 
+  border-radius: 6px;
+  background: rgba(0,0,0,0.75); 
+  color: #fff;
+}
+
+.meta {
+  display: grid;
+  grid-template-columns: 40px 1fr;
+  gap: 10px;
+}
+
+.avatar { 
+  width: 40px; 
+  height: 40px; 
+  border-radius: 999px; 
+  object-fit: cover; 
+}
+
+.title { 
+  margin: 0 0 6px; 
+  font-size: 15px; 
+  line-height: 1.3; 
+  color: var(--text-color); 
+}
+
+.sub { 
+  color: var(--text-secondary, #6b7280); 
+  font-size: 13px; 
+  margin: 0; 
+}
+
+.video-card { 
+  display: block; 
+  color: inherit; 
+}
+
+.video-card:hover .thumb-wrap { 
+  filter: brightness(0.95); 
+  transform: translateY(-1px); 
+  transition: 120ms ease; 
+}
+
+.skeleton-card {
+  height: 220px; 
+  border-radius: 12px;
+  background: linear-gradient(90deg, var(--skeleton-bg, #1f2937), var(--skeleton-highlight, #374151), var(--skeleton-bg, #1f2937));
+  background-size: 200% 100%;
+  animation: shimmer 1.2s infinite;
+}
+
+@keyframes shimmer { 
+  to { 
+    background-position: 200% 0; 
+  } 
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 14px;
+    line-height: 1.2;
+  }
+  
+  .sub {
+    font-size: 12px;
+  }
+  
+  .avatar {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .meta {
+    grid-template-columns: 36px 1fr;
+    gap: 8px;
+  }
+  
+  .skeleton-card {
+    height: 180px;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+  .title {
+    font-size: 14px;
+  }
+  
+  .skeleton-card {
+    height: 200px;
+  }
+}
+
+.video-card {
+  width: 100%;
+}

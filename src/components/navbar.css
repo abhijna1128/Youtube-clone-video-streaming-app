@@ -1,0 +1,11 @@
+.navbar-brand {
+  font-weight: bold;
+}
+
+form input {
+  min-width: 300px;
+}
+
+img.rounded-circle {
+  margin-left: auto;
+}

@@ -1,0 +1,188 @@
+/* Root colors */
+:root {
+  --bg-light: #f9f9f9;
+  --bg-dark: #181818;
+  --text-light: #111;
+  --text-dark: #eaeaea;
+
+  --card-light: #fff;
+  --card-dark: #222;
+
+  --btn-light-bg: #f0f0f0;
+  --btn-light-text: #111;
+  --btn-light-border: #ccc;
+  --btn-light-hover-bg: #e0e0e0;
+  --btn-light-hover-text: #111;
+
+  --btn-dark-bg: #333;
+  --btn-dark-text: #eaeaea;
+  --btn-dark-border: #444;
+  --btn-dark-hover-bg: #555;
+  --btn-dark-hover-text: #fff;
+
+  --subscribe-bg: #cc0000;
+  --subscribe-bg-subscribed: #555;
+}
+
+/* Page container */
+.video-page-container {
+  background-color: var(--bg-light);
+  color: var(--text-light);
+}
+
+[data-theme="dark"] .video-page-container {
+  background-color: var(--bg-dark);
+  color: var(--text-dark);
+}
+
+/* Video player */
+.video-player-container {
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: black;
+}
+
+/* Video title */
+.video-title {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 0.8rem;
+}
+
+/* Video actions */
+.video-actions-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.video-actions-section .video-stats {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+
+.video-btn {
+  background-color: var(--btn-light-bg);
+  color: var(--btn-light-text);
+  border: 1px solid var(--btn-light-border);
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.video-btn i {
+  color: inherit;
+}
+
+.video-btn:hover {
+  background-color: var(--btn-light-hover-bg);
+  color: var(--btn-light-hover-text);
+}
+
+/* Dark mode for video buttons */
+[data-theme="dark"] .video-btn {
+  background-color: var(--btn-dark-bg);
+  color: var(--btn-dark-text);
+  border: 1px solid var(--btn-dark-border);
+}
+
+[data-theme="dark"] .video-btn:hover {
+  background-color: var(--btn-dark-hover-bg);
+  color: var(--btn-dark-hover-text);
+}
+
+/* Subscribe button */
+.subscribe-btn {
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.subscribe-btn:not(.subscribed) {
+  background-color: var(--subscribe-bg);
+  color: #fff;
+}
+
+.subscribe-btn.subscribed {
+  background-color: var(--subscribe-bg-subscribed);
+  color: #eaeaea;
+}
+/* Subscriber count styling */
+.subscriber-count {
+  font-size: 0.875rem;           /* slightly smaller text */
+  color: #606060;                /* default muted color for light mode */
+}
+
+[data-theme="dark"] .subscriber-count {
+  color: #aaa;                   /* muted color for dark mode */
+}
+
+
+/* Description section */
+.video-description-section {
+  background-color: var(--card-light);
+  padding: 0.8rem;
+  border-radius: 8px;
+  margin-top: 1rem;
+}
+
+[data-theme="dark"] .video-description-section {
+  background-color: var(--card-dark);
+}
+
+/* Comments section */
+.comments-section .comment-item {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.comments-section .comment-item i {
+  font-size: 2rem;
+  color: #888;
+}
+
+[data-theme="dark"] .comments-section .comment-item i {
+  color: #ccc;
+}
+
+/* Related videos */
+.related-videos-section {
+  margin-top: 1rem;
+}
+
+.related-video-item {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.related-video-item img {
+  width: 168px;
+  height: 94px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .video-actions-section {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .video-actions-section .video-stats {
+    margin-bottom: 0.5rem;
+  }
+}
