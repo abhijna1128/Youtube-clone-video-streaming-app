@@ -1,5 +1,5 @@
 import VideoCard from './VideoCard';
-import './videoCard.css';
+import './VideoCard.css';
 
 export default function VideoGrid({ items, loading = false }) {
   if (loading) {
