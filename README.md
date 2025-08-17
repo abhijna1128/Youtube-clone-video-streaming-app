@@ -3,7 +3,7 @@ Video Streaming App (YouTube Clone)
 A modern, responsive YouTube Clone (Frontend Only) built with React and Vite, replicating the UI and interactive features of YouTube. This project focuses on modern UI design, responsiveness, and dynamic content rendering.
 
 Live Demo: https://youtube-clone-videostreaming-app.netlify.app
-GitHub Repository: https://github.com/yourusername/Youtube-Clone-Video-Streaming-App
+GitHub Repository: https://github.com/abhijna1128/Youtube-clone-video-streaming-app
 
 📝 Project Overview
 
@@ -152,8 +152,8 @@ Node.js v16+
 npm or yarn
 
 Installation
-git clone https://github.com/yourusername/Youtube-Clone-Video-Streaming-App.git
-cd Youtube-Clone-Video-Streaming-App
+git clone https://github.com/abhijna1128/Youtube-clone-video-streaming-app.git
+cd Youtube-clone-video-streaming-app
 npm install
 npm run dev
 
